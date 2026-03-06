@@ -36,7 +36,7 @@ public class ShoppingCart {
 
         for (int i = 0; i < food.length; i++) {
             Food product = food[i];
-            if (product.isVegetarian() == true) {  // явное сравнение
+            if (product.isVegetarian()) {  // явное сравнение
                 total = total + (product.getAmount() * product.getPrice());
             }
         }

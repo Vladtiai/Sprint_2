@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 import model.*;
 import model.constants.Colour;
 import service.ShoppingCart;
@@ -8,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         Meat meat = new Meat (5,100);
-        Apple redApple = new Apple(10, 50, Colour.colourRed);
-        Apple greenApple = new Apple(8, 60, Colour.colorGreen);
+        Apple redApple = new Apple(10, 50, Colour.COLOUR_RED);
+        Apple greenApple = new Apple(8, 60, Colour.COLOUR_GREEN);
 
         Food[] products = {meat, redApple, greenApple};
 
